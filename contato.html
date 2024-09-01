@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define a codificação de caracteres e configura a viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página e o link para o arquivo CSS -->
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <div class="container">
+            <!-- Título principal -->
+            <h1>Pedro Henrique Gonçalves Dornelas</h1>
+            <nav>
+                <!-- Links de navegação para as outras páginas -->
+                <a href="index.html">Sobre Mim</a>
+                <a href="formacao.html">Formação</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <div class="container">
+        <div class="content">
+            <!-- Título da seção de contato -->
+            <h2>Contato</h2>
+            <!-- Formulário de contato -->
+            <form action="mailto:pedrohdornelas@gmail.com" method="post" enctype="text/plain">
+                <!-- Campo para o nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <!-- Campo para o e-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Campo para a mensagem -->
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <!-- Botão de envio do formulário -->
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
